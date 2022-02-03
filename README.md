@@ -1,2 +1,2 @@
 # nodeJS-training
-this repo for collecting sample code on node js
+This repo for collecting sample code on node JS

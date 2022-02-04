@@ -10,4 +10,3 @@ sayHi (namesData.nona);
 sayHi (namesData.toty);
 
 sayHi (namesData.ahmedsCar); // this coming from the cars object on names module
-

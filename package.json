@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AhmedEldessouki1982/nodeJS-training/issues"
   },
-  "homepage": "https://github.com/AhmedEldessouki1982/nodeJS-training#readme"
+  "homepage": "https://github.com/AhmedEldessouki1982/nodeJS-training#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }

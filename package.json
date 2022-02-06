@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-training",
+  "version": "1.0.0",
+  "description": "This repo for collecting sample code on node JS. Learning Node.js notes: if the application contains dependancies use $ npm install //that will install all package.jason dependancies",
+  "main": "ReadFileSystems.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedEldessouki1982/nodeJS-training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedEldessouki1982/nodeJS-training/issues"
+  },
+  "homepage": "https://github.com/AhmedEldessouki1982/nodeJS-training#readme"
+}

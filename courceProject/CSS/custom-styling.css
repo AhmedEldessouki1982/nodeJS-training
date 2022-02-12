@@ -1,12 +1,69 @@
-.container {
-    margin-top: 1rem;
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* file normlisation */
+* {
+    margin: 0;
+    padding: 0;
+    background: url(../IMG/620796d1951e9.jpg) no-repeat center center fixed;
+    box-sizing: border-box;
+    font-family: 'Ubuntu Mono', monospace;
 }
-.btn-success {
-    margin-top: 1rem;
+
+.jumbotron{
+    position: relative;
+    color: rgb(100, 100, 194);
+    background-color:none !important;
+    border: 2px solid rgb(214, 86, 86);
 }
-.massages {
-    display: block;
-    height: auto;
-    width: 60vw;
-    margin-left: 2rem;
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 0.5rem;
+    margin: 2rem 15rem 0 15rem;
 }
+.massenger {
+    grid-column: 1;
+    min-height: auto;
+}
+
+.massenger h1 {
+    position: absolute;
+    top: 10px;
+    left: 15%;
+    text-transform:capitalize;
+    border-bottom: 2px solid rgb(214, 86, 86);
+}
+
+.massenger img {
+    margin-top: 5px;
+    position:absolute;
+    top: 0;
+    height: 4rem;
+    border-radius: 15px;
+}
+
+.contact-list {
+    grid-column: 2;
+    min-height: auto;
+    display: flex;
+}
+
+.contact-search {
+    top: 2px;
+}
+
+
+.contact-search label {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    
+}
+
+.contact-search input {
+    position: absolute;
+
+    
+}
+    

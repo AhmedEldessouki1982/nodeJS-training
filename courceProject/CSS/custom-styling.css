@@ -1,5 +1,22 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+/* styling the overall scrolling bar */
+*::-webkit-scrollbar {
+    width: 1em;
+}
+/*  
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+  */
+*::-webkit-scrollbar-thumb {
+  background-color: orange;
+  outline: 1px solid rgb(214, 86, 86);
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
 /* file normlisation */
 * {
     margin: 0;
@@ -7,6 +24,11 @@
     background: url(../IMG/620796d1951e9.jpg) no-repeat center center fixed;
     box-sizing: border-box;
     font-family: 'Ubuntu Mono', monospace;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+.form-control {
+    color: orange;
 }
 
 .jumbotron{
@@ -24,7 +46,7 @@
 }
 .massenger {
     grid-column: 1;
-    min-height: auto;
+    height: 547px;
 }
 
 .massenger h1 {
@@ -38,32 +60,74 @@
 .massenger img {
     margin-top: 5px;
     position:absolute;
-    top: 0;
-    height: 4rem;
-    border-radius: 15px;
+    top: 7px;
+    left: 30px;
+    height: 3rem;
+    border-radius: 10px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+/* styling for fav contact list */
+.fav-list {
+    max-height: 65vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+     
 }
 
 .contact-list {
-    grid-column: 2;
-    min-height: auto;
-    display: flex;
+    position: relative;
+    width: 25rem;
 }
 
 .contact-search {
-    top: 2px;
+    position: absolute;
+    display: flex;
+    top: 10px;
 }
 
-
 .contact-search label {
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    
+    margin-right: 10px;
+}
+
+.contact-search i {
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(214, 86, 86);
 }
 
 .contact-search input {
-    position: absolute;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid rgb(214, 86, 86);
+}
 
-    
+.fav-list img {
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 7px;
 }
     
+.fav-list .card-list {
+    display: flex;
+    line-height: normal;
+}
+
+.contact-name small{
+    position: relative;
+    margin: 0; 
+    padding: 0;
+    top: 0.1rem;   
+}
+
+.contact-name h4{
+    position: relative;
+    margin: 0; 
+    padding: 0;
+    top: 0.1rem;   
+}
+
+.card-list {
+    margin: 10px;
+}

@@ -2,17 +2,18 @@ const express = require('express'); //importing express
 const app = express();  //inilize express and start the service
 const port = 3000;
 
-// //.get used to make req & res from main server url
+// .get used to make req & res from main server url
 // app.get ('/', (req,res)=> {
 //     res.send("this responce from (/) url");
 // })
 
 
 // // .get used to make req & responce from a spesfic server url
-// app.get('/about', (req,res)=>{
+// app.get('../data/test-users.json', (req,res)=>{
 //     res.send("this responce from (/about) url");
 // })
-//
+
+
 //the .use() for telling express to serve a static file
 app.use(express.static(__dirname));
 

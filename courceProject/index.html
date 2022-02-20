@@ -12,6 +12,13 @@
     <link rel="stylesheet" href="./CSS/all.min.css">
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+    <!-- adding favicon -->
+    <link rel="icon" type="image/png" href="./IMG/favicon.png">
+
+    <!-- contact list module -->
+    <script type="module" src="./contactList.js"></script>
+
 </head>
     <body>
 
@@ -40,12 +47,13 @@
                     <label for="formGroupExampleInput">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </label>
-                    <input type="text" class="form-control"  placeholder="Your Name">
+                    <input type="text" class="form-control"  placeholder="Search for person">
                 </div>
 
                 <!-- Fav contact List -->
                 <div class="fav-list">
-                    <a href="#" class="fav-list-item">
+                    <!-- dynamiclly added by js /////////////////////////////////////////-->
+                    <!-- <a href="#" class="fav-list-item">
                         <div class="card-list">
                             <div class="avatar">
                                 <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="user avatar">
@@ -55,125 +63,9 @@
                                 <small>Software Engineer</small>
                             </div>
                         </div>
-                    </a>
-
-
-                    <a href="#" class="fav-list-item">
-                        <div class="card-list">
-                            <div class="avatar">
-                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="user avatar">
-                            </div>
-                            <div class="contact-name">
-                                <h4 class="media-heading">John Wayne</h4>
-                                <small>Software Engineer</small>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#" class="fav-list-item">
-                        <div class="card-list">
-                            <div class="avatar">
-                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="User avatar">
-                            </div>
-                            <div class="contact-name">
-                                <h4 class="media-heading">John Wayne</h4>
-                                <small>Software Engineer</small>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="fav-list-item">
-                        <div class="card-list">
-                            <div class="avatar">
-                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="user avatar">
-                            </div>
-                            <div class="contact-name">
-                                <h4 class="media-heading">John Wayne</h4>
-                                <small>Software Engineer</small>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="fav-list-item">
-                        <div class="card-list">
-                            <div class="avatar">
-                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="user avatar">
-                            </div>
-                            <div class="contact-name">
-                                <h4 class="media-heading">John Wayne</h4>
-                                <small>Software Engineer</small>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="fav-list-item">
-                        <div class="card-list">
-                            <div class="avatar">
-                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="user avatar">
-                            </div>
-                            <div class="contact-name">
-                                <h4 class="media-heading">John Wayne</h4>
-                                <small>Software Engineer</small>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="fav-list-item">
-                        <div class="card-list">
-                            <div class="avatar">
-                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="user avatar">
-                            </div>
-                            <div class="contact-name">
-                                <h4 class="media-heading">John Wayne</h4>
-                                <small>Software Engineer</small>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#" class="fav-list-item">
-                        <div class="card-list">
-                            <div class="avatar">
-                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="user avatar">
-                            </div>
-                            <div class="contact-name">
-                                <h4 class="media-heading">John Wayne</h4>
-                                <small>Software Engineer</small>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#" class="fav-list-item">
-                        <div class="card-list">
-                            <div class="avatar">
-                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="user avatar">
-                            </div>
-                            <div class="contact-name">
-                                <h4 class="media-heading">John Wayne</h4>
-                                <small>Software Engineer</small>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#" class="fav-list-item">
-                        <div class="card-list">
-                            <div class="avatar">
-                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="user avatar">
-                            </div>
-                            <div class="contact-name">
-                                <h4 class="media-heading">John Wayne</h4>
-                                <small>Software Engineer</small>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#" class="fav-list-item">
-                        <div class="card-list">
-                            <div class="avatar">
-                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="user avatar">
-                            </div>
-                            <div class="contact-name">
-                                <h4 class="media-heading">John Wayne</h4>
-                                <small>Software Engineer</small>
-                            </div>
-                        </div>
-                    </a>
-                    <!-- for commissioning purpose -->
+                    </a> -->
+                    <!-- /////////////////////////////////////////////////////////////////////////////// -->
+                    
                 </div>
 
                 <!-- end of fav contact list -->
@@ -186,7 +78,6 @@
             <br>
         </div>
 
-    
         <!-- bootstrap JS link -->
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
